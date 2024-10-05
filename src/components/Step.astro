@@ -13,12 +13,33 @@ interface Props {
 const { num, date, title, desc, action } = Astro.props;
 ---
 
-<apex-step id={`step-${num}`} data-date={date.toISOString()} class="flex flex-col md:flex-row justify-start items-center md:items-start gap-5">
-  <p class="flex justify-center items-center font-bold h-10 aspect-square text-xl rounded-full border-2 border-white bg-apexblue">{num}</p>
-  <div class="flex flex-col justify-start items-start">
-    <p class="text-lg">{date.toDateString()} <span class="text-md text-gray-300 pl-5" id={`countdown-step-${num}`}></span></p>
+<apex-step
+  id={`step-${num}`}
+  data-date={date.toISOString()}
+  class="flex flex-col items-center justify-start gap-5 md:flex-row md:items-start"
+>
+  <p
+    class="flex aspect-square h-10 items-center justify-center rounded-full border-2 border-white bg-apexblue text-xl font-bold"
+  >
+    {num}
+  </p>
+  <div class="flex flex-col items-start justify-start">
+    <p class="text-lg">
+      {date.toDateString()}
+      <span class="text-md pl-5 text-gray-300" id={`countdown-step-${num}`}
+      ></span>
+    </p>
     <p class="text-2xl font-bold">{title}</p>
     <p class="text-lg">{desc}</p>
-    {action && <a class="border-2 my-2 px-5 py-2 text-2xl border-white bg-apexblue font-semibold" href={action.link}>{action.text}</button>}
+    {
+      action && (
+        <a
+          class="my-2 border-2 border-white bg-apexblue px-5 py-2 text-2xl font-semibold"
+          href={action.link}
+        >
+          {action.text}
+        </a>
+      )
+    }
   </div>
 </apex-step>
