@@ -44,8 +44,8 @@ import Step from "../components/Step.astro";
           title="Submit proposal"
           desc="Finalize your ideas and designs and submit them to the Apex team for review."
           action={{
-            text: "Resources",
-            link: "/resources",
+            text: "Proposal Resources",
+            link: "/resources/proposal",
           }}
         />
         <Step
@@ -53,12 +53,20 @@ import Step from "../components/Step.astro";
           date={new Date("2025-04-30")}
           title="Build your project"
           desc="After prototyping and iteration, put together the project that will launch on the HAB and ship it to the launch location!"
+          action={{
+            text: "Building Resources",
+            link: "/resources/building",
+          }}
         />
         <Step
           num={4}
           date={new Date("2025-05-10")}
           title="LAUNCH!"
           desc="Head over to Boston, MA to see your project launch, and then recover it and analyze the results!"
+          action={{
+            text: "Launch Info",
+            link: "/resources/launch",
+          }}
         />
       </div>
 
