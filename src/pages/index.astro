@@ -15,7 +15,7 @@ import Step from "../components/Step.astro";
   </head>
   <body>
     <div
-      class="flex min-h-screen w-full flex-col items-center justify-start bg-gradient-to-br from-[#112349] via-[#3C7BCE] to-[#88AFD0] text-white"
+      class="relative flex min-h-screen w-full flex-col items-center justify-start bg-gradient-to-br from-[#112349] via-[#3C7BCE] to-[#88AFD0] text-white"
     >
       <div class="pt-24">
         <h1 class="text-center font-display text-7xl leading-normal">Apex</h1>
@@ -105,6 +105,19 @@ import Step from "../components/Step.astro";
           Apex are tax deductible.
         </p>
       </div>
+
+      <img
+        src="/balloon.png"
+        class="absolute left-[15%] top-[20%] hidden md:block"
+      />
+      <img
+        src="/balloon.png"
+        class="absolute right-[15%] top-1/3 hidden md:block"
+      />
+      <img
+        src="/balloon.png"
+        class="absolute left-[15%] top-1/2 hidden md:block"
+      />
     </div>
 
     <script>
