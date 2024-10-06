@@ -135,7 +135,6 @@ import Step from "../components/Step.astro";
     <script>
       class ApexStep extends HTMLElement {
         connectedCallback() {
-          console.log(this.id);
           const countdown = this.querySelector(`#countdown-${this.id}`);
           if (!countdown) return;
           const now = new Date();
