@@ -7,6 +7,9 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   redirects: {
-    "/resources": "/",
+    // Get rid of prefix when using real domain
+    "/website/resources": "/website",
   },
+  // Comment when using real domain
+  base: "/website",
 });
