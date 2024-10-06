@@ -1,7 +1,9 @@
 ---
+import { Image } from "astro:assets";
 import "@fontsource/bruno-ace-sc";
 import "@fontsource/outfit";
 
+import Earth from "../assets/earth.png";
 import Step from "../components/Step.astro";
 ---
 
@@ -19,7 +21,7 @@ import Step from "../components/Step.astro";
   </head>
   <body>
     <div
-      class="relative flex min-h-screen w-full flex-col items-center justify-start bg-gradient-to-br from-[#112349] via-[#3C7BCE] to-[#88AFD0] text-white"
+      class="relative flex min-h-screen w-full flex-col items-center justify-start bg-gradient-to-b from-[#000000] from-30% to-[#2877de] text-white"
     >
       <div class="pt-24">
         <h1 class="text-center font-display text-7xl leading-normal">Apex</h1>
@@ -30,7 +32,7 @@ import Step from "../components/Step.astro";
       </div>
 
       <div
-        class="flex w-2/3 flex-col items-center justify-start gap-10 py-24 md:w-1/3"
+        class="relative flex w-2/3 flex-col items-center justify-start gap-10 pb-80 pt-24 md:w-1/3"
       >
         <Step
           num={1}
@@ -72,9 +74,14 @@ import Step from "../components/Step.astro";
             link: `${import.meta.env.BASE_URL}/resources/launch`,
           }}
         />
+        <Image
+          src={Earth}
+          alt="Earth"
+          class="absolute bottom-0 h-1/4 w-screen max-w-[100vw] md:h-1/2"
+        />
       </div>
 
-      <div class="flex w-full justify-center bg-lessblue py-20">
+      <div class="bg-earthblack flex w-full justify-center py-20">
         <div
           class="flex w-2/3 flex-col items-start justify-start gap-10 md:w-1/2"
         >
@@ -104,7 +111,7 @@ import Step from "../components/Step.astro";
         </div>
       </div>
 
-      <div class="w-full bg-apexblue p-10">
+      <div class="bg-lessblack w-full p-10">
         <p class="text-center text-xl">
           This website is open-source at <a
             href="https://github.com/apexhacks2025/website"

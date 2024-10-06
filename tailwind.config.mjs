@@ -9,6 +9,8 @@ export default {
       colors: {
         apexblue: "#175CBC",
         lessblue: "#2F62A8",
+        earthblack: "#04072A",
+        lessblack: "#050933",
       },
       fontFamily: {
         sans: ["Outfit", ...defaultTheme.fontFamily.sans],
