@@ -1,6 +1,18 @@
 ---
 import "@fontsource/bruno-ace-sc";
 import "@fontsource/outfit";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection("resources");
+  return blogEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
 ---
 
 <html lang="en">
@@ -13,11 +25,11 @@ import "@fontsource/outfit";
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Apex Proposal Resources</title>
+    <title>Apex {entry.data.title}</title>
   </head>
   <body>
     <div
-      class="flex min-h-screen w-full flex-col justify-start gap-10 bg-gray-800 px-32 py-20 text-white"
+      class="flex min-h-screen w-full flex-col justify-start gap-10 bg-earthblack px-32 py-20 text-white"
     >
       <div class="flex flex-col items-center justify-start">
         <a
@@ -27,9 +39,9 @@ import "@fontsource/outfit";
         <p class="font-display text-2xl">RESOURCES</p>
       </div>
 
-      <div class="prose prose-invert lg:prose-lg">
-        <h2>Proposal Resources</h2>
-        <p>TODO</p>
+      <div class="prose prose-invert lg:prose-lg xl:prose-xl">
+        <h2>{entry.data.title}</h2>
+        <Content />
       </div>
     </div>
   </body>
