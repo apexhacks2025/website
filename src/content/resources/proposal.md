@@ -87,12 +87,15 @@ With that said, here are the guidelines for the proposal:
 
 - It should include the names of each member of your team
 - It should have a project title
-- It should breifly describe what the project will look like
+- It should breifly describe what the project will look like and what you expect
+  from it (like a hypothesis)
 - It should list the data that will be collected from the project
 - It should give a rough idea of how the project will be constructed
   (components, electronics?)
 - It should disclose any concerns about the project, such as potential safety
   issues or expensive components
+  - Note that we may be able to fund a portion of the experiment, but not all of
+    it. If it is a PCB, check out [OnBoard](https://hackclub.com/onboard/)!
 
 Make sure to think through each element of this proposal carefully. It's OK if
 there's still parts about the project that you're unsure of - just include that
