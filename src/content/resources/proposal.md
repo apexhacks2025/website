@@ -14,8 +14,9 @@ task. For that reason, the Apex team strongly recommends that you form teams of
 will not only be a lot easier on you, but it will also be a lot more fun!
 
 If you already have a team, that's great! Make sure everyone
-[signs up for Apex](https://tally.so/r/nPXAV1) individually, and when it comes
-time to submit a proposal, make sure to include everyone's names.
+[signs up for Apex](https://airtable.com/app7H902kTEPSGVDw/pag2xZxhI3yfQwrXv/form)
+individually, and when it comes time to submit a proposal, make sure to include
+everyone's names.
 
 If you don't already have a team (or would like more members), that's also
 great! Talk around in the
@@ -105,5 +106,6 @@ in the proposal so that we can help you figure it out.
 TODO: add example proposal?
 -->
 
-**The proposal is due from your team on March 23. A link to submit the proposal
-will be sent out to all teams in early March.**
+**When your team has finished the proposal, submit it on the
+[Proposal Submission Form](https://airtable.com/app7H902kTEPSGVDw/paghle5GsxnomNFPL/form)!
+Proposals are due on March 22.**
