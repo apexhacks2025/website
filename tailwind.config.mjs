@@ -9,7 +9,7 @@ export default {
       colors: {
         apexblue: "#175CBC",
         lessblue: "#2F62A8",
-        earthblack: "#04072A",
+        earthblack: "#010101",
         lessblack: "#050933",
       },
       fontFamily: {
