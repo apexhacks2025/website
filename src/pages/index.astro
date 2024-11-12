@@ -1,9 +1,13 @@
 ---
 import { Image } from "astro:assets";
-import "@fontsource/bruno-ace-sc";
-import "@fontsource/outfit";
+import "@fontsource/jersey-25";
+import "@fontsource/jetbrains-mono";
+import "@fontsource/jockey-one";
 
-import Earth from "../assets/earth.png";
+import orpheusflag from "../assets/orpheusflag.png";
+import orpheusrocket from "../assets/orpheusrocket.png";
+import orpheusmoon from "../assets/orpheusmoon.png";
+import workmark from "../assets/wordmark.png";
 import Step from "../components/Step.astro";
 ---
 
@@ -13,7 +17,7 @@ import Step from "../components/Step.astro";
     <link
       rel="icon"
       type="image/svg+xml"
-      href={`${import.meta.env.BASE_URL}/favicon.svg`}
+      href={`${import.meta.env.BASE_URL}/logo.png`}
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
@@ -21,39 +25,53 @@ import Step from "../components/Step.astro";
   </head>
   <body>
     <div
-      class="relative flex min-h-screen w-full flex-col items-center justify-start bg-gradient-to-b from-[#000000] from-30% to-[#2877de] text-white"
+      class="to-sky relative flex min-h-screen w-full flex-col items-center justify-start bg-gradient-to-b from-[#000000] via-[#122247] text-white"
     >
-      <div class="pt-24">
-        <h1 class="text-center font-display text-7xl leading-normal">Apex</h1>
-        <p class="mx-10 text-center text-2xl">
+      <div
+        class="relative flex flex-col items-center justify-center gap-3 pt-24"
+      >
+        <Image src={workmark} alt="Apex wordmark" />
+        <p class="font-special mx-10 text-center text-3xl">
           A 3 month journey to launch projects <strong class="font-extrabold"
             >100,000 ft into the air</strong
-          > on high-altitude balloons in Boston.
+          > on high-altitude balloons in Boston
         </p>
+        <Image
+          class="absolute -left-10 top-5"
+          src={orpheusrocket}
+          alt="Orpheus on a rocket"
+        />
+        <Image
+          class="absolute -right-10 top-5"
+          src={orpheusmoon}
+          alt="Orpheus on the moon"
+        />
       </div>
 
       <div
-        class="relative flex w-2/3 flex-col items-center justify-start gap-10 pb-96 pt-24 md:w-1/3"
+        class="relative flex w-full flex-col items-center justify-start gap-10 py-24"
       >
         <Step
           num={1}
           date={new Date("2025-02-28")}
-          title="Registration deadline"
-          desc="Signing up for Apex is free - you just need a team of fellow teens ready to dive into making a project for Apex!"
+          title="Register"
+          desc="Signing up for Apex is free - you just need a team of fellow teens ready to dive into making a project!"
           action={{
-            text: "Sign Up",
+            text: "Signup",
             link: "https://airtable.com/app7H902kTEPSGVDw/pag2xZxhI3yfQwrXv/form",
           }}
+          direction="left"
         />
         <Step
           num={2}
           date={new Date("2025-03-23")}
           title="Submit proposal"
-          desc="Finalize your ideas and designs and submit them to the Apex team for review."
+          desc="Finalize your ideas and designs with your team and submit them to the review team!"
           action={{
-            text: "Proposal Resources",
+            text: "Resources",
             link: `${import.meta.env.BASE_URL}/resources/proposal`,
           }}
+          direction="right"
         />
         <Step
           num={3}
@@ -61,9 +79,10 @@ import Step from "../components/Step.astro";
           title="Build your project"
           desc="After prototyping and iteration, put together the project that will launch on the HAB and ship it to the launch location!"
           action={{
-            text: "Building Resources",
+            text: "Details",
             link: `${import.meta.env.BASE_URL}/resources/building`,
           }}
+          direction="left"
         />
         <Step
           num={4}
@@ -71,33 +90,28 @@ import Step from "../components/Step.astro";
           title="LAUNCH!"
           desc="Head over to Boston, MA to see your project launch, and then recover it and analyze the results!"
           action={{
-            text: "Launch Info",
+            text: "Info",
             link: `${import.meta.env.BASE_URL}/resources/launch`,
           }}
-        />
-        <Image
-          src={Earth}
-          alt="Earth"
-          class="absolute bottom-0 h-1/4 w-screen max-w-[100vw] md:h-1/2"
+          direction="right"
         />
       </div>
 
-      <div class="flex w-full justify-center bg-earthblack py-20">
-        <div
-          class="flex w-2/3 flex-col items-start justify-start gap-10 md:w-1/2"
-        >
-          <h2 class="w-full text-center font-display text-4xl">QUESTIONS</h2>
-          <div class="flex flex-col items-start justify-start gap-2">
-            <p class="text-2xl font-bold">What's a high altitude balloon?</p>
-            <p class="text-lg">
+      <div class="bg-cardblue flex w-full justify-center p-20">
+        <div class="flex w-full items-start justify-start gap-10">
+          <div class="flex w-1/2 flex-col items-start justify-start gap-2">
+            <p class="w-full text-center text-2xl font-bold">
+              What's a high altitude balloon?
+            </p>
+            <p class="w-full text-center text-lg">
               High altitude balloons (HABs) are an accessible way to send
               research and recreational payloads into altitudes upwards of
               100,000 feet. While they demand meticulous planning and logistics,
               they reward those who launch them with the chance to send their
               payloads to tremendous altitudes. We are here to bring you that
               experience, but without the fierce logistics and infrastructure
-              that often come with a launch! If you're interested in learning
-              more, watch <a
+              that often come with a launch! <br /><br />If you're interested in
+              learning more, watch <a
                 class="underline"
                 href="https://www.youtube.com/watch?v=gx_RJoNerg0"
                 >this video from the New England Weather Balloon Society</a
@@ -105,76 +119,62 @@ import Step from "../components/Step.astro";
             </p>
           </div>
 
-          <div class="flex flex-col items-start justify-start gap-2">
-            <p class="text-2xl font-bold">Do I need experience to sign up?</p>
-            <p class="text-lg">
+          <div class="flex w-1/2 flex-col items-start justify-start gap-2">
+            <p class="w-full text-center text-2xl font-bold">
+              Do I need experience to sign up?
+            </p>
+            <p class="w-full text-center text-lg">
               Nope! Apex is open to all teenagers interested in launching
-              projects on high altitude balloons.
+              projects on high altitude balloons. We will provide lots of
+              resources to help you along the way of creating your project!
             </p>
           </div>
-
-          <a
-            class="my-2 self-center border-2 border-white bg-apexblue px-10 py-4 text-3xl font-semibold"
-            href="https://airtable.com/app7H902kTEPSGVDw/pag2xZxhI3yfQwrXv/form"
-            >Sign Up</a
-          >
         </div>
       </div>
 
-      <div class="w-full bg-lessblack p-10">
+      <div class="bg-sky flex w-full justify-evenly">
+        <Image
+          src={orpheusflag}
+          alt="Orpheus holding a flag"
+          class="relative top-5"
+        />
+        <a
+          href="https://airtable.com/app7H902kTEPSGVDw/pag2xZxhI3yfQwrXv/form"
+          style="direction: rtl;"
+          class="h-fit self-center rounded-full bg-white p-10 indent-[-0.5em] text-5xl font-black tracking-[0.5em] text-black"
+          >SIGNUP</a
+        >
+        <Image
+          src={orpheusflag}
+          alt="Orpheus holding a flag"
+          class="relative top-5 -scale-x-[1]"
+        />
+      </div>
+
+      <div class="bg-ground w-full p-10">
         <p class="text-center text-xl">
           This website is open-source at <a
             href="https://github.com/apexhacks2025/website"
             class="underline">apexhacks2025/website</a
           >.
-        </p><br />
+        </p>
+      </div>
+      <div class="bg-dirt w-full p-10">
         <p class="text-center text-xl">
           Apex is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club),
           a 501(c)(3) nonprofit (EIN: 81-2908499). any donations you make to
           Apex are tax deductible.
         </p>
       </div>
-
-      <img
-        src={`${import.meta.env.BASE_URL}/balloon.png`}
-        class="absolute left-[15%] top-[20%] hidden md:block"
-      />
-      <img
-        src={`${import.meta.env.BASE_URL}/balloon.png`}
-        class="absolute right-[15%] top-1/3 hidden md:block"
-      />
-      <img
-        src={`${import.meta.env.BASE_URL}/balloon.png`}
-        class="absolute left-[15%] top-[40%] hidden md:block"
-      />
+      <div
+        class="bg-darkdirt flex w-full items-center justify-center gap-10 p-10 text-xl"
+      >
+        <a class="underline" href={import.meta.env.BASE_URL}>HOME</a>
+        <a class="underline" href={`${import.meta.env.BASE_URL}/resources`}
+          >RESOURCES</a
+        >
+        <a class="underline" href="https://hackclub.com">HACK CLUB</a>
+      </div>
     </div>
-
-    <script>
-      class ApexStep extends HTMLElement {
-        connectedCallback() {
-          const countdown = this.querySelector(`#countdown-${this.id}`);
-          if (!countdown) return;
-          const now = new Date();
-          const diff =
-            new Date(this.dataset.date ?? "").valueOf() - now.valueOf();
-
-          if (diff < 0) {
-            countdown.textContent = "";
-            return;
-          } else if (diff < 1000 * 60 * 60 * 24) {
-            countdown.textContent = "Less than a day";
-            return;
-          } else if (diff < 1000 * 60 * 60 * 24 * 30) {
-            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-            countdown.textContent = `${days} days`;
-          } else {
-            const months = Math.floor(diff / (1000 * 60 * 60 * 24 * 30));
-            countdown.textContent = `${months} months`;
-          }
-        }
-      }
-
-      customElements.define("apex-step", ApexStep);
-    </script>
   </body>
 </html>

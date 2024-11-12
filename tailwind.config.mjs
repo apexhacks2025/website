@@ -7,14 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        apexblue: "#175CBC",
-        lessblue: "#2F62A8",
         earthblack: "#010101",
-        lessblack: "#050933",
+        cardblue: "#36508C",
+        apexdark: "#FF5D51",
+        apexlight: "#FF9E96",
+        sky: "#5173C3",
+        ground: "#54A054",
+        dirt: "#5B4225",
+        darkdirt: "#3D2D1B",
       },
       fontFamily: {
-        sans: ["Outfit", ...defaultTheme.fontFamily.sans],
-        display: ["Bruno Ace SC", ...defaultTheme.fontFamily.serif],
+        sans: ["JetBrains Mono", ...defaultTheme.fontFamily.sans],
+        special: ['"Jersey 25"', ...defaultTheme.fontFamily.sans],
+        display: ['"Jockey One"', ...defaultTheme.fontFamily.serif],
       },
     },
   },
