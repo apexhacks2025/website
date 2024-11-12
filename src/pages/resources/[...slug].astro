@@ -37,7 +37,9 @@ const { Content } = await entry.render();
       class="flex min-h-screen w-full flex-col justify-start gap-10 bg-earthblack px-32 py-20 text-white"
     >
       <div class="flex flex-col items-center justify-start">
-        <Image src={wordmark} alt="Apex wordmark" width={300} />
+        <a href={import.meta.env.BASE_URL}
+          ><Image src={wordmark} alt="Apex wordmark" width={300} /></a
+        >
         <p class="font-display text-3xl">RESOURCES</p>
       </div>
 
