@@ -15,14 +15,14 @@ const { num, date, title, desc, action, direction } = Astro.props;
 ---
 
 <div
-  class={`flex w-2/3 items-center justify-start ${direction === "right" ? "flex-row-reverse" : ""}`}
+  class={`flex w-full px-3 md:w-2/3 gap-5 md:gap-0 items-center justify-start flex-col ${direction === "right" ? "md:flex-row-reverse" : "md:flex-row"}`}
 >
   <div
-    class={`flex w-1/2 items-center justify-start gap-5 md:items-start ${direction === "right" ? "flex-row-reverse" : ""}`}
+    class={`flex w-full md:w-1/2 items-center justify-start gap-5 md:items-start ${direction === "right" ? "flex-row-reverse" : ""}`}
   >
     <p
       style="writing-mode: vertical-lr; text-orientation: upright;"
-      class="[writing-mode]-[tb\-rl] text-apexlight text-xl font-black uppercase"
+      class="[writing-mode]-[tb\-rl] text-xl font-black uppercase text-apexlight"
     >
       {date.toDateString().split(" ").slice(1, 3).join(" ")}
     </p>
@@ -31,16 +31,18 @@ const { num, date, title, desc, action, direction } = Astro.props;
         class={`flex justify-start w-full items-center gap-3 ${direction === "right" ? "flex-row-reverse" : ""}`}
       >
         <p
-          class="bg-apexdark flex aspect-square w-10 items-center justify-center rounded-full font-bold"
+          class="flex aspect-square w-10 items-center justify-center rounded-full bg-apexdark font-bold"
         >
           {num}
         </p>
-        <p class="font-special text-4xl font-medium uppercase tracking-widest">
+        <p
+          class={`font-special text-4xl font-medium uppercase tracking-widest ${direction === "right" ? "text-right" : "text-left"}`}
+        >
           {title}
         </p>
       </div>
       <p
-        class={`text-xl ${direction === "right" ? "text-right" : "text-left"}`}
+        class={`text-lg md:text-xl ${direction === "right" ? "text-right" : "text-left"}`}
       >
         {desc}
       </p>
@@ -50,7 +52,7 @@ const { num, date, title, desc, action, direction } = Astro.props;
     {/* hackiest way possible to fix css letter spacing */}
     <a
       style="direction: rtl;"
-      class="bg-apexlight rounded-full p-5 indent-[-0.5em] text-2xl font-black uppercase tracking-[0.5em] text-black"
+      class="rounded-full bg-apexlight p-3 indent-[-0.5em] text-xl font-black uppercase tracking-[0.5em] text-black md:p-5 md:text-2xl"
       href={action.link}
       >{action.text}
     </a>
