@@ -1,7 +1,12 @@
 ---
 import "@fontsource/bruno-ace-sc";
 import "@fontsource/outfit";
+import "@fontsource/jockey-one";
 import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+
+import wordmark from "../../assets/wordmark.png";
+import Footer from "../../components/Footer.astro";
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection("resources");
@@ -32,17 +37,18 @@ const { Content } = await entry.render();
       class="flex min-h-screen w-full flex-col justify-start gap-10 bg-earthblack px-32 py-20 text-white"
     >
       <div class="flex flex-col items-center justify-start">
-        <a
-          class="text-center font-display text-7xl"
-          href={import.meta.env.BASE_URL}>Apex</a
-        >
-        <p class="font-display text-2xl">RESOURCES</p>
+        <Image src={wordmark} alt="Apex wordmark" width={300} />
+        <p class="font-display text-3xl">RESOURCES</p>
       </div>
 
       <div class="prose prose-invert lg:prose-lg xl:prose-xl">
         <h2>{entry.data.title}</h2>
         <Content />
       </div>
+    </div>
+
+    <div class="text-white">
+      <Footer />
     </div>
   </body>
 </html>
