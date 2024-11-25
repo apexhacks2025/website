@@ -13,6 +13,4 @@ export default defineConfig({
     "/submit-proposal":
       "https://airtable.com/app7H902kTEPSGVDw/paghle5GsxnomNFPL/form",
   },
-  // Comment when using real domain
-  base: "/website",
 });
