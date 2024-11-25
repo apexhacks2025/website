@@ -16,7 +16,7 @@ const allResources = await getCollection("resources");
     <link
       rel="icon"
       type="image/svg+xml"
-      href={`${import.meta.env.BASE_URL}/favicon.svg`}
+      href={`${import.meta.env.BASE_URL ?? "/"}/favicon.svg`}
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
@@ -27,7 +27,7 @@ const allResources = await getCollection("resources");
       class="flex min-h-screen w-full flex-col justify-start gap-10 bg-earthblack px-5 py-20 text-white md:px-32"
     >
       <div class="flex flex-col items-center justify-start">
-        <a href={import.meta.env.BASE_URL}
+        <a href={import.meta.env.BASE_URL ?? "/"}
           ><Image src={wordmark} alt="Apex wordmark" width={250} /></a
         >
         <p class="font-display text-3xl">RESOURCES</p>
@@ -48,7 +48,7 @@ const allResources = await getCollection("resources");
             allResources.map((resource) => (
               <li>
                 <a
-                  href={`${import.meta.env.BASE_URL}/resources/${resource.slug}`}
+                  href={`${import.meta.env.BASE_URL ?? "/"}/resources/${resource.slug}`}
                 >
                   {resource.data.title}
                 </a>

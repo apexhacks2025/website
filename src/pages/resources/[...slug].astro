@@ -25,7 +25,7 @@ const { Content } = await entry.render();
     <link
       rel="icon"
       type="image/svg+xml"
-      href={`${import.meta.env.BASE_URL}/favicon.svg`}
+      href={`${import.meta.env.BASE_URL ?? "/"}/favicon.svg`}
     />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
@@ -36,12 +36,12 @@ const { Content } = await entry.render();
       class="flex min-h-screen w-full flex-col justify-start gap-10 bg-earthblack px-5 py-20 text-white md:px-32"
     >
       <div class="flex flex-col items-center justify-start">
-        <a href={import.meta.env.BASE_URL}
+        <a href={import.meta.env.BASE_URL ?? "/"}
           ><Image src={wordmark} alt="Apex wordmark" width={250} /></a
         >
         <a
           class="font-display text-3xl"
-          href={`${import.meta.env.BASE_URL}/resources`}>RESOURCES</a
+          href={`${import.meta.env.BASE_URL ?? "/"}/resources`}>RESOURCES</a
         >
       </div>
 
