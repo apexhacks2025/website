@@ -17,8 +17,12 @@
   <div
     class="flex w-full items-center justify-center gap-10 bg-darkdirt p-10 text-xl"
   >
-    <a class="underline" href={import.meta.env.BASE_URL ?? "/"}>HOME</a>
-    <a class="underline" href={`${import.meta.env.BASE_URL ?? ""}/resources`}
+    <a class="underline" href={import.meta.env.BASE_URL.slice(0, -1) ?? "/"}
+      >HOME</a
+    >
+    <a
+      class="underline"
+      href={`${import.meta.env.BASE_URL.slice(0, -1) ?? ""}/resources`}
       >RESOURCES</a
     >
     <a class="underline" href="https://hackclub.com">HACK CLUB</a>
