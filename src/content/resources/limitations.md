@@ -7,8 +7,11 @@ limitations. Your project may not be allowed to fly if it does not conform to
 these limitations.
 
 - No RF near infrastructure frequencies (432.xx) MHz
-- Under 0.25lbs in weight, not including the box (subject to change)
+- Under 0.5lbs in weight, including the box
 - Uses a self-sourced Stryofoam box
-- Room for vinyl tubing to go through for payload mounting (see WIP model)
+- Room for vinyl tubing to go through for payload mounting
+
+See this [basic CAD model](/rigging.step) to understand how your project will
+fit onto the Apex balloon.
 
 **Your proposal must be approved by the Apex team!**
