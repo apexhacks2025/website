@@ -20,7 +20,7 @@ everyone's names.
 
 If you don't already have a team (or would like more members), that's also
 great! Talk around in the
-[#apex](https://hackclub.slack.com/archives/C07GUTVD20G) channel on the Hack
+[#apex](slack-channel) channel on the Hack
 Club Slack, and you'll find someone cool to work with on your Apex project :)
 
 ### Step 2: IDEAS!
@@ -58,7 +58,7 @@ a couple ideas are simply too impractical (take a look at the
 make it better, or you might just have to scrap it. Other ideas might sound
 good, but you have no idea how to make it happen. Don't worry! _\<insert your
 favorite search engine here\>_ and the
-[#apex](https://hackclub.slack.com/archives/C07GUTVD20G) channel on Slack are
+[#apex](slack-channel) channel on Slack are
 your best friends, and at least one of them will be able to point you in the
 right direction.
 
