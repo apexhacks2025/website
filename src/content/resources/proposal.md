@@ -14,7 +14,7 @@ task. For that reason, the Apex team strongly recommends that you form teams of
 will not only be a lot easier on you, but it will also be a lot more fun!
 
 If you already have a team, that's great! Make sure everyone
-[signs up for Apex](https://airtable.com/app7H902kTEPSGVDw/pag2xZxhI3yfQwrXv/form)
+[signs up for Apex](signup)
 individually, and when it comes time to submit a proposal, make sure to include
 everyone's names.
 
