@@ -14,13 +14,13 @@ task. For that reason, the Apex team strongly recommends that you form teams of
 will not only be a lot easier on you, but it will also be a lot more fun!
 
 If you already have a team, that's great! Make sure everyone
-[signs up for Apex](signup)
+[signs up for Apex](https://apexhacks.org/signup)
 individually, and when it comes time to submit a proposal, make sure to include
 everyone's names.
 
 If you don't already have a team (or would like more members), that's also
 great! Talk around in the
-[#apex](slack-channel) channel on the Hack
+[#apex](https://apexhacks.org/slack-channel) channel on the Hack
 Club Slack, and you'll find someone cool to work with on your Apex project :)
 
 ### Step 2: IDEAS!
@@ -58,7 +58,7 @@ a couple ideas are simply too impractical (take a look at the
 make it better, or you might just have to scrap it. Other ideas might sound
 good, but you have no idea how to make it happen. Don't worry! _\<insert your
 favorite search engine here\>_ and the
-[#apex](slack-channel) channel on Slack are
+[#apex](https://apexhacks.org/slack-channel) channel on Slack are
 your best friends, and at least one of them will be able to point you in the
 right direction.
 
@@ -107,5 +107,5 @@ TODO: add example proposal?
 -->
 
 **When your team has finished the proposal, submit it on the
-[Proposal Submission Form](submit-proposal)!
+[Proposal Submission Form](https://apexhacks.org/submit-proposal)!
 Proposals are due on March 22.**
