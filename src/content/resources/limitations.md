@@ -9,7 +9,7 @@ these limitations.
 - No RF near infrastructure frequencies (432.xx) MHz
 - Under 0.5lbs in weight, including the box
 - Uses a self-sourced Stryofoam box
-- Room for vinyl tubing to go through for payload mounting
+- Room for 3/8" vinyl tubing to go through for payload mounting
 
 See this [basic CAD model](/rigging.step) to understand how your project will
 fit onto the Apex balloon.
