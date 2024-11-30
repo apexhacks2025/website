@@ -17,6 +17,9 @@ Colorado Space Grant:
 Please watch that video to understand how to properly build your project. Here's
 a few additional notes:
 
+- See
+  [this resource from Colorado Space Grant](https://www.colorado.edu/spaceminor/sites/default/files/attached-files/foamcore_.pdf)
+  for information on building your project box.
 - Make sure that your project (whether it be a PCB or plastic box) is properly
   mounted to the styrofoam box. This will ensure that it does not come loose in
   the box or shake too much. An acceptable way of doing this is by hot gluing
