@@ -54,7 +54,7 @@ of data. There's a lot to find out about what happens at high elevations!
 You should now have a decently long list of potential project ideas. Now, it's
 time to _enhance_. Get into the details of each idea! You'll probably find that
 a couple ideas are simply too impractical (take a look at the
-[project limitations]()). You might be able to change the concept slightly to
+[project limitations](limitations)). You might be able to change the concept slightly to
 make it better, or you might just have to scrap it. Other ideas might sound
 good, but you have no idea how to make it happen. Don't worry! _\<insert your
 favorite search engine here\>_ and the
