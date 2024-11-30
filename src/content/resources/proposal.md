@@ -107,5 +107,5 @@ TODO: add example proposal?
 -->
 
 **When your team has finished the proposal, submit it on the
-[Proposal Submission Form](https://airtable.com/app7H902kTEPSGVDw/paghle5GsxnomNFPL/form)!
+[Proposal Submission Form](submit-proposal)!
 Proposals are due on March 22.**
