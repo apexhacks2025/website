@@ -14,14 +14,13 @@ task. For that reason, the Apex team strongly recommends that you form teams of
 will not only be a lot easier on you, but it will also be a lot more fun!
 
 If you already have a team, that's great! Make sure everyone
-[signs up for Apex](https://apexhacks.org/signup)
-individually, and when it comes time to submit a proposal, make sure to include
-everyone's names.
+[signs up for Apex](https://apexhacks.org/signup) individually, and when it
+comes time to submit a proposal, make sure to include everyone's names.
 
 If you don't already have a team (or would like more members), that's also
-great! Talk around in the
-[#apex](https://apexhacks.org/slack-channel) channel on the Hack
-Club Slack, and you'll find someone cool to work with on your Apex project :)
+great! Talk around in the [#apex](https://apexhacks.org/slack-channel) channel
+on the Hack Club Slack, and you'll find someone cool to work with on your Apex
+project :)
 
 ### Step 2: IDEAS!
 
@@ -54,13 +53,13 @@ of data. There's a lot to find out about what happens at high elevations!
 You should now have a decently long list of potential project ideas. Now, it's
 time to _enhance_. Get into the details of each idea! You'll probably find that
 a couple ideas are simply too impractical (take a look at the
-[project limitations](limitations)). You might be able to change the concept slightly to
-make it better, or you might just have to scrap it. Other ideas might sound
-good, but you have no idea how to make it happen. Don't worry! _\<insert your
-favorite search engine here\>_ and the
-[#apex](https://apexhacks.org/slack-channel) channel on Slack are
-your best friends, and at least one of them will be able to point you in the
-right direction.
+[project limitations](/resources/limitations)). You might be able to change the
+concept slightly to make it better, or you might just have to scrap it. Other
+ideas might sound good, but you have no idea how to make it happen. Don't worry!
+_\<insert your favorite search engine here\>_ and the
+[#apex](https://apexhacks.org/slack-channel) channel on Slack are your best
+friends, and at least one of them will be able to point you in the right
+direction.
 
 Keep in mind that **you do not need to actually design anything for your project
 at this step.** This step is purely to narrow down your list to just a couple
@@ -107,5 +106,5 @@ TODO: add example proposal?
 -->
 
 **When your team has finished the proposal, submit it on the
-[Proposal Submission Form](https://apexhacks.org/submit-proposal)!
-Proposals are due on March 22.**
+[Proposal Submission Form](https://apexhacks.org/submit-proposal)! Proposals are
+due on March 22.**

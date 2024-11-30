@@ -3,11 +3,11 @@ title: Building Details
 ---
 
 _Please get your proposal approved by following the instructions in
-[the proposal guide](proposal) before continuing on this page._
+[the proposal guide](/resources/proposal) before continuing on this page._
 
 Now that your proposal has been approved, it's time to get started with building
-your project! First, double-check the [limitations](limitations) so that your
-project will be able to fly at Apex.
+your project! First, double-check the [limitations](/resources/limitations) so
+that your project will be able to fly at Apex.
 
 The primary resource for building your project is this YouTube video from
 Colorado Space Grant:
@@ -25,11 +25,11 @@ a few additional notes:
 - Temperatures during flight can get as low as -50°F! It can also fluctuate
   rapidly enough to cause expansions and contractions in PCBs made from FR-4.
 - Air pressure at 100,000ft is only 1% of that at sea level (around 10mb).
-- Remember the [limitations](limitations)!
+- Remember the [limitations](/resources/limitations)!
 
 **Your project should be built by April 29th to allow for shipping to Apex
 before the launch. Details on shipping your project and the launch are on the
-[launch info page](launch).**
+[launch info page](/resources/launch).**
 
 Again, if you have any questions, ask in the
 [#apex](https://apexhacks.org/slack-channel) channel on the Hack Club Slack!
