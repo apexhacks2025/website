@@ -41,7 +41,6 @@ you to make your project your own, though:
 
 - 🫧 Ozone sensor
 - ☀️ Solar tracker
-- 🌀 Auto rotation device dropped from the balloon
 - ⚡️ Ambient static electricity collector
 - 🧪 Chemistry experiment
 
