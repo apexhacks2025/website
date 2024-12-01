@@ -106,4 +106,4 @@ TODO: add example proposal?
 
 **When your team has finished the proposal, submit it on the
 [Proposal Submission Form](https://apexhacks.org/submit-proposal)! Proposals are
-due on March 22.**
+due on April 1st.**

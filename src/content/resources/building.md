@@ -30,7 +30,7 @@ a few additional notes:
 - Air pressure at 100,000ft is only 1% of that at sea level (around 10mb).
 - Remember the [limitations](/resources/limitations)!
 
-**Your project should be built by April 29th to allow for shipping to Apex
+**You should start building your project by May 1st to allow for shipping to Apex
 before the launch. Details on shipping your project and the launch are on the
 [launch info page](/resources/launch).**
 
