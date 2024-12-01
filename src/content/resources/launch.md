@@ -75,4 +75,4 @@ presentations
 
 11:30am - Awards
 
-12:00pm - Closing ceremony / Lunch
+12:00pm - Closing ceremony
