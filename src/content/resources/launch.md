@@ -32,7 +32,7 @@ You may either ship your project in advance (you must pay for your own shipping)
 
 12:30pm - Lunch
 
-01:00pm - Head back to WPS / Recover process begins
+01:00pm - Head back to WPS / Recovery process begins
 
 02:00pm - Attendees arrive back at WPS
 
