@@ -12,16 +12,14 @@ You may either ship your project in advance (you must pay for your own shipping)
 ### Launch Day
 
 ### Schedule
-#### June 13th
-12:00pm - Meet at WPS / Lunch
+#### June 20th
+05:00pm - Arrive at WPS
 
-01:00pm - Opening ceremony
-
-01:30pm - Begin rigging
+05:30pm - Opening ceremony
 
 06:00pm - Dinner
 
-#### June 14th
+#### June 21st
 07:00am - Wake up
 
 07:30am - Breakfast
@@ -44,7 +42,7 @@ You may either ship your project in advance (you must pay for your own shipping)
 
 06:00pm - Dinner
 
-#### June 15th
+#### June 22nd
 08:00am - Wake up
 
 08:30am - Breakfast
