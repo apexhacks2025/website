@@ -47,7 +47,7 @@ you to make your project your own, though:
 You'll notice a common theme among several ideas: they log various kinds of
 data. There's a lot to find out about what happens at high elevations!
 
-#### Step 2B: HTTP 420 (Enhance Your Calm)
+#### Step 2B: Explore each idea in detail
 
 You should now have a decently long list of potential project ideas. Now, it's
 time to _enhance_. Get into the details of each idea! You'll probably find that
