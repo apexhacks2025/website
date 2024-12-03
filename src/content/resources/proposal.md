@@ -44,8 +44,8 @@ you to make your project your own, though:
 - ⚡️ Ambient static electricity collector
 - 🧪 Chemistry experiment
 
-You'll notice a common theme among several ideas are that they log various kinds
-of data. There's a lot to find out about what happens at high elevations!
+You'll notice a common theme among several ideas: they log various kinds of
+data. There's a lot to find out about what happens at high elevations!
 
 #### Step 2B: HTTP 420 (Enhance Your Calm)
 
